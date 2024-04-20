@@ -31,3 +31,8 @@ Here are some examples of the analysis results:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+## Update
+
+python -m build
