@@ -111,7 +111,7 @@ def plot_graph(stock_data, signals, company_name, upper_band, lower_band, pdf, r
 
 
 # 메인 함수
-def main():
+def stock_analysis_v1():
 
     current_date = datetime.datetime.now().strftime('%Y-%m-%d')
     # 데이터 다운로드 기간 설정
@@ -150,4 +150,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    stock_analysis_v1()
