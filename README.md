@@ -10,6 +10,7 @@ This repository contains scripts for analyzing stock data using Python.
 
 The analysis results are summarized in the following PDF file:
 
+![Stock Analysis](result/stock_analysis.png)
 ![Stock Analysis PDF](result/stock_analysis.pdf)
 
 ## Usage
