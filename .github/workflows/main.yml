@@ -2,7 +2,7 @@ name: Publish Workflows
 on:
   push:
     branches:
-     - master
+     - main
 jobs:
   publish:
     name: PUBLISH
