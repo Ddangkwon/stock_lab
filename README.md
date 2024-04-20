@@ -35,4 +35,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Update
 
-python -m build
+python -m build dist/stock_lab-0.0.1-py3-none-any.whl:
