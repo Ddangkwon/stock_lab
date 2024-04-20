@@ -6,7 +6,7 @@ on:
 jobs:
   publish:
     name: PUBLISH
-    runs-on: ubuntu-latest
+    runs-on: windows 10
     steps:
     - name: CHECKOUT
       uses: actions/checkout@v4
