@@ -17,6 +17,7 @@ setup(
         'FinanceDataReader',
         'matplotlib',
         'plotly',
+        'mplfinance',
     ],
     author='Ddangkwon',
     author_email='semi109502@gmail.com',
