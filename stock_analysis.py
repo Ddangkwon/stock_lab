@@ -51,6 +51,8 @@ class MovingAverageRSIStrategy:
     def plot_moving_average_rsi_strategy(self, stock_data, signals, company_name, pdf):
         self.calculate_moving_average()  # Ensure moving averages are calculated
         plt.figure(figsize=(12, 6))
+        plt.rcParams['font.family'] = 'Malgun Gothic'
+        plt.rcParams['axes.unicode_minus'] = False
         plt.plot(stock_data['Close'], label='Close Price')
         plt.plot(self.data['short_mavg'], label='Short Moving Average', color='red')
         plt.plot(self.data['long_mavg'], label='Long Moving Average', color='blue')

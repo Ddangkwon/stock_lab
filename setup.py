@@ -23,7 +23,7 @@ setup(
     author_email='semi109502@gmail.com',
     description='A package for stock analysis and visualization',
     long_description=long_description,  # 설명 추가
-    url='https://https://github.com/Ddangkwon/stock_lab/',
+    url='https://github.com/Ddangkwon/stock_lab/',
     keywords=['stocklab'],
     python_requires='>=3',
     classifiers=[
