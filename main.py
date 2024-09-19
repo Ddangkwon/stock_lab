@@ -5,21 +5,14 @@ import json
 import numpy as np
 import pandas as pd
 import FinanceDataReader as fdr
-
-from utils.print_opt import *
-from utils.stock_data_loader import *
-from stock_analysis_v1 import *
 from stock_analysis import  *
 VERSION = '0.0.1'
 
 
 def generate_tickers_json():
     ticker_company_dict = {
+        '259960.KS': '크래프톤',
         '000270.KS': '기아자동차',
-        'AAPL': 'Apple Inc.',
-        'MSFT': 'Microsoft Corporation',
-        'GOOG': 'Alphabet Inc.',
-        'AMZN': 'Amazon.com Inc.',
         '005930.KS': '삼성전자',
         '000660.KS': 'SK하이닉스',
         '011200.KS': 'HMM',
@@ -71,6 +64,21 @@ def generate_tickers_json():
         '002790.KS': '아모레G',
         '004990.KS': '롯데지주',
         '009830.KS': '한화솔루션',
+        '051910.KS': 'LG에너지솔루션',
+        '066570.KS': 'LG전자',
+        '011070.KS': 'LG이노텍',
+        '000880.KS': '한화',
+        '272210.KS': '한화시스템',
+        '012200.KS': '계양전기',
+        '019490.KS': 'HL만도',
+        '018880.KS': '한온시스템',
+        '352820.KS': '하이브',
+        '047810.KS': '한국항공우주',
+        '079550.KS': 'LIG넥스원',
+        'AAPL': 'Apple Inc.',
+        'MSFT': 'Microsoft Corporation',
+        'GOOG': 'Alphabet Inc.',
+        'AMZN': 'Amazon.com Inc.',
         # 다른 주식들의 정보는 생략했습니다.
     }
 
